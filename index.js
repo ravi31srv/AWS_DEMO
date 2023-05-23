@@ -3,7 +3,6 @@ const app = express();
 const port = 3000;
 const NodeCache = require("node-cache");
 const myCache = new NodeCache();
-const db = require("./dbConection");
 
 const instanceId = Math.random();
 
